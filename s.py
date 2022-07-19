@@ -1,5 +1,7 @@
-def hola():
-	print 'hello'
+def hola(nombre):
+	print f"hola {nombre}!"
 
-def segundo_hola():
-	print "adios amor, me voy de ti"
+
+def segundo_hola(nombre):
+	print f"adios {nombre}"
+
